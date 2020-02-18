@@ -1,0 +1,54 @@
+h3
+{
+  color: red
+}
+
+.Interest
+{
+  Color: blue
+  margin: auto;
+  padding: 20px;
+  background-color: lightgrey;
+  width: 50%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+}
+
+.Contact-Information
+{
+  Color: blue
+  margin: auto;
+  padding: 20px;
+  background-color: lightgrey;
+  width: 50%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+}
+
+.Work-Experience
+{
+  Color: blue
+  margin: auto;
+  padding: 20px;
+  background-color: lightgrey;
+  width: 50%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+}
+
+.Skills
+{
+  Color: blue
+  margin: auto;
+  padding: 20px;
+  background-color: lightgrey;
+  width: 50%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+}
+
+#pic
+  {
+    width: 20%;
+    margin: auto;
+  }
