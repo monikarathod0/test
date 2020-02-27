@@ -113,7 +113,11 @@ background-color: pink;
   height: 90vh;
   margin: auto;
   /* here goes your main grid: */
+  display: grid;
+  grid-template-rows: 10% 10% 60% 20%;
+  grid-template-columns: 1fr;
 }
+
 
 /* Now you assign the grid areas to the elements in you HTML */
 .gridMain header
@@ -145,12 +149,11 @@ background-color: pink;
   margin-top: 25px;
   margin-bottom: 75px;
   display: grid;
-  grid-template-rows: 10% 10%;
+  grid-template-rows: 50% 50%;
   grid-template-columns: 1fr 1fr;
   grid-row-gap: 20px;
   grid-column-gap: 10px;
-  grid-template-areas: "1 2"
-                       "3 4";
+
   /* here goes your small grid: */
 }
 
