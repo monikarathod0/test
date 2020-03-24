@@ -1,0 +1,106 @@
+.gridLayout
+{
+  height: 200vh;
+  margin: auto;
+  width: 80%;
+  display: grid;
+  margin-top: 150px;
+  grid-template-areas: "hea hea hea"
+                       "nav main main"
+                       "nav main main"
+                       "foo foo foo"
+
+  grid-template-rows: 10% 100px 20% 5em;
+  grid-template-columns: .5fr 1fr 1fr;
+}
+
+.gridLayout header
+{
+  grid-area: hea;
+  position: relative;
+  right: 200px;
+  margin-top: -10vh
+  text-align: center;
+  background-color: lightpink;
+}
+.gridLayout nav
+{
+  grid-area: nav;
+  top: 30px;
+  position: relative;
+  right: 150px;
+}
+.gridLayout main
+{
+  grid-area: main;
+  position: relative;
+  right: 200px;
+  top: 300px;
+  background-color: lightpink;
+}
+.gridLayout footer
+{
+  grid-area: foo;
+  margin-bottom: 30vh
+  background-color: lightpink;
+}
+h1
+{
+  margin: auto;
+  font-family: monospace;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+#mama
+{
+  width: 400px;
+  text-align: center;
+}
+.containera
+{
+  margin: auto;
+  padding: 20px;
+  background-color: lightpink;
+  width: 90%;
+  border-radius: 20px;
+}
+.containerb
+{
+  position: relative;
+  left: px;
+  text-align: auto;
+  background-color: lightyellow;
+  width: 90%;
+  box-shadow: 6px 7px 1px 2px #ededed;
+  border-radius: 20px;
+  font-family: monospace;
+  font-size: 15px;
+}
+h4
+{
+  font-size: 20px;
+  text-align: auto;
+  font-family: monospace;
+  color: black;
+}
+.containerc
+{
+  position: relative;
+  top: 230px;
+  text-align: center;
+  font-family: monospace;
+  margin: auto;
+  padding: 10px;
+  background-color: lavender;
+  width: 80%;
+  box-shadow: 6px 7px 1px 2px #ededed;
+  border-radius: 50px;
+}
+
+h3
+{
+  font-family: monospace;
+  text-align: center;
+}
+.css1

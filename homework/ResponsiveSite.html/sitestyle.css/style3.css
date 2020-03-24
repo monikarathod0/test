@@ -1,0 +1,74 @@
+.gridLayout
+{
+  height: 200vh;
+  margin: auto;
+  width: 80%;
+  display: grid;
+  margin-top: 150px;
+  grid-template-areas: "hea hea hea"
+                       "nav main main"
+                       "nav main main"
+                       "foo foo foo"
+
+  grid-template-rows: 10% 100px 20% 5em;
+  grid-template-columns: .5fr 1fr 1fr;
+}
+.gridLayout nav
+{
+  grid-area: nav;
+  top: 30px;
+  position: relative;
+  right: 150px;
+}
+.gridLayout main
+{
+  grid-area: main;
+  position: relative;
+  right: 200px;
+  top: 300px;
+  background-color: lightpink;
+}
+.gridLayout footer
+{
+  grid-area: foo;
+  margin-bottom: 30vh
+  background-color: lightpink;
+}
+.containera
+{
+  margin: auto;
+  position: relative;
+  right: 25px;
+  background-color: lightpink;
+  width: 180%;
+}
+h1
+{
+  color: black;
+  font-family: monospace;
+  font-size: 40px;
+  position: relative;
+  bottom: 100px;
+  left: 450px;
+  text-align: center;
+
+
+}
+.containerb
+{
+  width: 65%;
+  text-align: auto;
+  position: relative;
+  left: 230px;
+  font-family: monospace;
+  border-radius: 20px;
+  box-shadow: 6px 7px 1px 2px #ededed;
+  background-color: lightyellow;
+}
+
+h3
+{
+  text-align: center;
+  font-family: monospace;
+}
+.css1

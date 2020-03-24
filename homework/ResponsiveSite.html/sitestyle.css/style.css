@@ -1,0 +1,127 @@
+.gridLayout
+{
+  height: 200vh;
+  margin: auto;
+  width: 80%;
+  display: grid;
+  margin-top: 150px;
+  grid-template-areas: "hea hea hea"
+                       "nav main main"
+                       "nav main main"
+                       "foo foo foo"
+
+  grid-template-rows: 10% 100px 20% 5em;
+  grid-template-columns: .5fr 1fr 1fr;
+}
+.gridLayout header
+{
+  grid-area: hea;
+  position: relative;
+  right: 100px;
+  margin-top: -10vh
+  text-align: center;
+  background-color: lightpink;
+}
+.gridLayout nav
+{
+  grid-area: nav;
+  top: -45px;
+  position: relative;
+  right: 100px;
+}
+.gridLayout main
+{
+  grid-area: main;
+  position: relative;
+  right: 200px;
+  top: 300px;
+  background-color: lightpink;
+}
+.gridLayout footer
+{
+  grid-area: foo;
+  margin-bottom: 30vh;
+  background-color: lightpink;
+}
+h1
+{
+  margin: auto;
+  font-family: monospace;
+  font-size: 50px;
+  color: white;
+  text-align: center;
+}
+#pic
+{
+  width: 250px;
+}
+
+.containera
+{
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  border-radius: 30px;
+  background-color: lightpink;
+}
+.containerb
+{
+  width: 95%;
+  text-align: auto;
+  left: px;
+  position: relative;
+  font-family: monospace;
+  border-radius: 20px;
+  box-shadow: 6px 7px 1px 2px #ededed;
+  background-color: lightyellow;
+}
+h4
+{
+  text-align: center;
+  font-family: monospace;
+  font-size: 30px;
+  color: silver;
+}
+.containerc
+{
+  width: 70%;
+  padding: 10px;
+  margin: auto;
+  position: relative;
+  top: 170px;
+  text-align: center;
+  font-family: monospace;
+  border-radius: 90px;
+  box-shadow: 6px 7px 1px 2px #ededed;
+  background-color: lavender;
+}
+
+h3
+{
+  text-align: center;
+  font-family: monospace;
+}
+.css1
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
