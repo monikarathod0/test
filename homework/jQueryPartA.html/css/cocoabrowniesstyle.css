@@ -1,0 +1,79 @@
+h3
+{
+  color: lightpink
+}
+
+h1
+{
+  color: lightpink
+}
+
+.Introduction
+{
+  margin: auto;
+  padding: 20px;
+  background-color: lavender;
+  width: 80%;
+  text-align: center
+  box-shadow: 6px 7px 5px 2px #ededed;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+}
+
+.Steps
+{
+  margin: auto;
+  padding: 20px;
+  background-color: lavender;
+  width: 40%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+}
+
+.Prep
+{
+  margin: auto;
+  padding: 20px;
+  background-color: lavender;
+  width: 40%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+}
+
+.sidebar {
+  float: left;
+  margin-left: 80px;
+  padding: 30px;
+  background-color: lavender;
+  width: 15%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+h1 {
+    width:500px;
+    margin: 0 auto;
+    background: gray;
+    text-align: center;
+    box-shadow: 6px 7px 5px 2px #ededed;
+    border-radius: 20px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
