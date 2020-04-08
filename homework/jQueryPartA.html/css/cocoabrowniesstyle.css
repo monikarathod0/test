@@ -1,0 +1,134 @@
+h3
+{
+  color: lightpink
+}
+
+h1
+{
+  color: lightpink
+}
+
+.Introduction
+{
+  margin: auto;
+  padding: 20px;
+  background-color: lavender;
+  width: 80%;
+  text-align: center
+  box-shadow: 6px 7px 5px 2px #ededed;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+  font-family: monospace;
+}
+
+.Steps
+{
+  margin: auto;
+  padding: -20px;
+  background-color: lavender;
+  width: 40%;
+  border-radius: 80px;
+  margin-bottom: 300px;
+  font-family: monospace;
+
+}
+
+.Prep
+{
+  margin: auto;
+  padding: -100px;
+  background-color: lavender;
+  width: 40%;
+  text-align: center;
+  font-family: monospace;
+}
+
+.sidebar {
+  float: left;
+  margin-left: 80px;
+  padding: 30px;
+  background-color: lavender;
+  width: 15%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+  font-family: monospace;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+h1 {
+    width:600px;
+    margin: 0 auto;
+    background: gray;
+    text-align: center;
+    box-shadow: 6px 7px 5px 2px #ededed;
+    border-radius: 20px;
+    font-family: monospace;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  width: 350px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.css1
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: lightpink;
+  text-align: center;
+  padding: 20px 79px;
+  text-decoration: none;
+  font-family: monospace;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.title {
+  width:600px;
+  margin: 0 auto;
+  background: gray;
+  text-align: center;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 20px;
+  font-family: : monospace;
+  color: lightpink
+}
+
+footer {
+  margin: auto;
+  padding: 50px;
+  background-color: lavender;
+  width: 40%;
+  box-shadow: 6px 7px 5px 2px #ededed;
+  border-radius: 80px;
+  text-align: center;
+  font-family: monospace;
+  color: lightpink
+}
