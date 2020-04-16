@@ -1,0 +1,67 @@
+{
+  background-color: #e4cdf0;
+
+}
+
+.grid
+{
+  width: 80%
+  height: 230vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  "he he he"
+  ". na ."
+  "ma ma ma"
+  "fo fo fo"
+  ;
+  grid-template-rows: .1fr .05fr 1fr .1fr;
+  grid-template-columns: .50fr 1fr;
+  grid-row-gap: 20px;
+}
+
+header
+{
+  background-color: white;
+  grid-area: he;
+  box-shadow: 4px 4px 10px #717171;
+}
+
+nav
+{
+  grid-area: na;
+  background-color: white;
+  box-shadow: 4px 4px 10px #717171;
+  width: 55%;
+  height: 10vh;
+}
+
+main
+{
+  grid-area: ma;
+  background-color: white;
+  box-shadow: 4px 4px 10px #717171;
+}
+
+footer
+{
+  grid-area: fo;
+  background-color: white;
+  box-shadow: 4px 4px 10px #717171;
+}
+
+.gridImages
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-column-gap: 10px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 40px;
+}
+
+.gridImages a img
+{
+  width: 100%;
+  margin-bottom: 10px;
+}
