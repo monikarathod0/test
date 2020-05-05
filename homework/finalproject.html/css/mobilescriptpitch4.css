@@ -1,0 +1,189 @@
+body
+{
+  background-color: lightgrey;
+}
+
+* {box-sizing: border-box}
+
+.grid
+{
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  "he he he"
+  "na na na"
+  "ma ma ma"
+  "fo fo fo"
+  ;
+
+  grid-template-rows: .3fr .2fr 2fr .4fr;
+  grid-row-gap: 20px;
+}
+
+header
+{
+  background-color: #e8c6d2;
+  grid-area: he;
+  box-shadow: 4px 4px 8px #a6a6a6;
+}
+
+nav
+{
+  grid-area: na;
+  background-color: #e8c6d2;
+  box-shadow: 4px 4px 8px #a6a6a6;
+}
+
+main
+{
+  grid-area: ma;
+  background-color: #e8c6d2;
+  box-shadow: 4px 4px 10px #a6a6a6;
+  margin-bottom: -1px;
+}
+
+footer
+{
+  grid-area: fo;
+  background-color: #e8c6d2;
+  box-shadow: 4px 4px 8px #a6a6a6;
+  height: 114px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  width: 350px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.css1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 0;
+}
+
+li {
+  display: block;
+}
+
+li a {
+  display: block;
+  color: lightpink;
+  width: 100%;
+  margin: auto;
+  line-height: 3;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: monospace;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.title4
+{
+  text-align: center;
+  display: block;
+}
+
+.lettering4
+{
+  font-size: 25px;
+  text-transform: uppercase;
+  letter-spacing: 8px;
+  color: white
+}
+
+.fonts
+{
+  width: 80%;
+  margin: 0 auto;
+  margin-top: 4vh;
+  align-items: center;
+  font-size: 30px;
+}
+
+h1
+{
+  color: white;
+  font-size: 35px;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+a
+{
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+i
+{
+  margin: 0 auto;
+  color: white;
+  transition: color .3s;
+}
+i:hover
+{
+  color: #24b7ff;
+}
+
+.letteringsm
+{
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 28px;
+}
+
+.phoneandemail
+{
+  font-size: 12px;
+  text-transform: lowercase;
+  display: block;
+  line-height: 5px;
+  margin-bottom: 50px;
+}
+
+.Script
+{
+  margin: auto;
+  text-align: center;
+  font-family: monospace;
+  padding: 20px;
+  width: 40%;
+  height: 50px;
+  font-size: 12px;
+  display: inline;
+}
+
+.link a:link {
+  color: black;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.link a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: white;
+}

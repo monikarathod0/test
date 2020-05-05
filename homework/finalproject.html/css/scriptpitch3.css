@@ -1,0 +1,168 @@
+body
+{
+  background-color: lightgrey;
+}
+
+* {box-sizing: border-box}
+
+.grid
+{
+  width: 80%;
+  height: 100vh;
+  margin: 0 auto;
+  display: grid;
+  grid-template-areas:
+  "he he he"
+  "na na na"
+  "ma ma ma"
+  "fo fo fo"
+  ;
+
+  grid-template-rows: .3fr .2fr 2fr .4fr;
+  grid-row-gap: 20px;
+}
+
+header
+{
+  background-color: #e8c6d2;
+  grid-area: he;
+  box-shadow: 4px 4px 8px #a6a6a6;
+}
+
+nav
+{
+  grid-area: na;
+  background-color: #e8c6d2;
+  box-shadow: 4px 4px 8px #a6a6a6;
+  width: 100%;
+}
+
+main
+{
+  grid-area: ma;
+  background-color: #e8c6d2;
+  box-shadow: 4px 4px 10px #a6a6a6;
+}
+
+footer
+{
+  grid-area: fo;
+  background-color: #e8c6d2;
+  box-shadow: 4px 4px 8px #a6a6a6;
+  margin-bottom: 10px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  width: 350px;
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.css1 ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  font-size: 0;
+}
+li{
+  display: inline;
+}
+
+li a {
+  display:inline-block;
+  color: lightpink;
+  text-align: center;
+  margin: 20px;
+  width: 33.3%;
+  margin: auto;
+  line-height: 4;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: monospace;
+}
+
+li a:hover {
+  background-color: #111;
+}
+
+.title3
+{
+  text-align: center;
+}
+
+.lettering3
+{
+  font-size: 40px;
+  text-transform: uppercase;
+  display: block;
+  letter-spacing: 10px;
+  color: white
+}
+
+h4
+{
+  font-family: monospace;
+}
+
+.lettering222
+{
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+  line-height: 34px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+
+p
+{
+  text-align: center;
+}
+
+img {
+  border: 1.96px solid #ddd;
+  border-radius: 10px;
+  padding: 7px;
+  width: 142.4px;
+  height: 142.4px;
+}
+
+.Script
+{
+  margin: auto;
+  padding: -100px;
+  text-align: center;
+  font-family: monospace;
+  padding: 20px;
+  width: 40%;
+  text-decoration: none;
+}
+
+.link a:link {
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.link a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+.link a:hover {
+  color: white;
+}
+
+.liv {
+  float: left;
+  width: 10%;
+}
